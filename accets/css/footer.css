@@ -1,0 +1,117 @@
+.footer {
+  background-color: #373A4C;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding: 0px 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__date {
+  color: #D8DAE7;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.footer .footer__politic a {
+  color: #D8DAE7;
+  font-size: 19px;
+  line-height: 20px;
+  margin: 0 10px;
+}
+
+.contact {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact span {
+  position: absolute;
+  -webkit-animation: click 5s infinite alternate;
+          animation: click 5s infinite alternate;
+  border-radius: 50%;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  top: -58px;
+  right: 0;
+}
+
+.contact span a {
+  -webkit-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 122, 0, 0.616);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 400px) {
+  .footer {
+    padding: 0px 0;
+  }
+  .footer .footer__date a {
+    font-size: 16px;
+  }
+  .footer .footer__politic a {
+    font-size: 16px;
+  }
+}
+
+@-webkit-keyframes click {
+  0% {
+    border: 5px solid rgba(0, 128, 0, 0.329);
+  }
+  100% {
+    border: 10px solid rgba(0, 128, 0, 0.329);
+  }
+}
+
+@keyframes click {
+  0% {
+    border: 5px solid rgba(0, 128, 0, 0.329);
+  }
+  100% {
+    border: 10px solid rgba(0, 128, 0, 0.329);
+  }
+}
+/*# sourceMappingURL=footer.css.map */

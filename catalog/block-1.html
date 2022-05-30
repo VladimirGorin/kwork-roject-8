@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/accets/css/header.css">
+    <link rel="stylesheet" href="/accets/css/catalog/container.css">
+    <link rel="stylesheet" href="/accets/css/footer.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header__fixed">
+            <header class="header">
+                <div class="header__body">
+                    <div class="header__title">
+                        <h1>Русская школа фрейминга</h1>
+                    </div>
+
+                    <div class="header__mob-nav">
+                        <img onclick="menuOpen()" src="./accets/image/menu.png" alt="">
+                    </div>
+                    <div class="header__navigation">
+                        <div class="header__nav">
+
+                            <div class="header__navigation">
+                                <ul>
+                                    <li><a href="#">Теория</a></li>
+                                    <li><a href="#">Практика</a></li>
+                                    <li><a href="#">Ринг</a></li>
+                                    <li><a href="#">Техники</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__reg">
+                                <button class="btn btn-primary"><a href="./signup.html">Вход</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </header>
+        <div id="menuMob" class="header__mob-menu">
+            <div id="menuShadow" class="header__shadow"></div>
+            <div class="header__navigation">
+                <div class="header__nav">
+                    <div onclick="menuClose()" class="header__top">
+                        <img src="./accets/image/closeBtn.png" alt="">
+                    </div>
+                    <div class="header__list">
+                        <ul>
+                            <li><a href="#">Теория</a></li>
+                            <li><a href="#">Практика</a></li>
+                            <li><a href="#">Ринг</a></li>
+                            <li><a href="#">Техники</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__reg">
+                        <button class="btn btn-primary"><a href="./signup.html">Вход</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main__body">
+                <div class="main__catalog">
+                    <a href="#">Главная</a>
+                    <a href="/index.html">Блог</a>
+                    <span>Немного Эриксониады</span>
+                </div>
+                <div class="main__row">
+                    <div class="main__title">
+                        <h1>Немного Эриксониады</h1>
+                        <span>27.05.2022 | Категория <a href="#">Технологии Влияния</a></span>
+                    </div>
+                    <div class="main__body">
+                        <div class="main_title">
+                            <span>Я веду здоровый образ жизни, поэтому, когда падаю бухой в жопу, обязательно пару раз отжимаюсь.</span>
+                            <p>(Интервью с Мастером Дзен)</p>
+                        </div>
+                        <div class="main__text">
+                            <ul>
+                                <li>Периодически даже оголтелому дзенскому распиздяю хочется помедитировать о чем-то классическом, спокойном и надежном.</li>
+                                <li>В техническом смысле это относится к технологиям типа эриксонианского гипноза, который суеты не предполагает, рассчитан <br> на приличный уровень интеллекта и к тому же отлично работает, если вы понимаете что делаете.</li>
+                                <li>Эриксониада хороша тем, что помогает улучшить разговорную речь и подключить мозги к более позитивным ресурсам, чем Эго.</li>
+                                <li>Набор речевых приемов эриксонианского разговорного фреймворка называется Милтон Моделью, и это тот мастхэв, который лучше <br> реально иметь в своем разговорном и письменном арсенале.</li>
+                                <li>Так что, если есть желание, практически приобщиться к этой теме, не трахаясь со стандартными программами обучения, а осваивая сабж в <br> стиле дзенского У-вэй – велкам.</li>
+                                <li>Начнем с разминочного паттерна, который является одним из главных приемов в Милтон-модели.</li>
+                                <li>Он называется...</li>
+                                <li class="font-italic">Неопределенный Референт</li>
+                                <li>Человек/Люди + (модальный глагол) + (нужный вам фрейм)</li>
+                                <li>Хотя, знание грамматики на вашей совести напомню, что модальные глаголы – это глаголы типа может, мог бы, должен - и им подобные.</li>
+                                <li>С глаголами типа должен, обязан мы связываемся редко, ибо эриксонианский спич редко использует категоричность, чтобы не задрачивать <br> Эго.</li>
+                                <li>А вот глаголы возможности – частые гости в умело построенной эриксонианской фразе.</li>
+                                <li>Эти глаголы плюс отсутствие референта (то есть конкретного персонажа) превращают написанную выше связку в сильную технику <br> убеждения, которая не вызывает возражения, так как ничего категорически не утверждает и ни к кому конкретно не относится.</li>
+                                <li>В реальности такая связка может выглядеть, например, так:</li>
+                                <li class="font-italic">Умные перцы могут изучить язык племени Ватути и получить в свои руки невероятно эффективное орудие соблазнения.</li>
+                                <li>Услышав подобную фразу, человек автоматически подставляет вместо неопределенного референта (умные перцы) самого себя <br> – но делает это неосознанно.</li>
+                                <li>Прием одинаково хорошо работает как в устной, так и в письменной речи.</li>
+                                <li>Пара примеров:</li>
+                                <ul>
+                                    <li class="font-matimatic">Люди могут смотреть на огонь часами, потому что это помогает им освободить ум от всякой беспокойной херни.</li>
+                                    <li class="font-matimatic">Люди умеют забывать о прошлых проебах и входить в здесь и сейчас.</li>
+                                </ul>
+                                <li>На практике (например, в копирайтинге) лучше заменить монофреймы  человек, или люди на те, что относятся к вашей аудитории или к <br> тому, какой она хочет быть.</li>
+                                <li>(Пример с умными перцами как раз из этой оперы).</li>
+                                <li>Это позволяет изящно решать многие копирайтинговые задачи.</li>
+                                <li>Пример:</li>
+                                <li>Толковый гинеколог может легко пройти этот курс и получить хорошую прибавку к зарплате.</li>
+                                <li>Иногда в учебниках копирайтинга встречается мнение о том, что неопределенные фразы ослабляют текст.</li>
+                                <li>В принципе это верно, но в том варианте, который дан выше, они, наоборот, усиливают его.</li>
+                                <li>К тому же вряд ли умные перцы станут слепо доверять чужим фреймам, не проверив их на практике, не так ли?</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__date">
+                <span>Все права защищены. © 2008 - 2020</span>
+            </div>
+            <div class="footer__politic">
+                <a href="#">Политика обработки персональных данных</a>
+                <a href="#">Договор оферты</a>
+            </div>
+        </footer>
+    </div>
+    <div class="contact">
+        <a href="https://vk.com/framelogy"><img src="/accets/image/vk.png" alt=""></a>
+        <a href="https://t.me/framelogy"><img src="/accets/image/tg.png" alt=""></a>
+        <span><a href="https://t.me/framelog">Чат</a></span>
+    </div>
+  
+    <script src="/accets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+      
+        const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // And if we need scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+                });
+    </script>
+</body>
+</html>
